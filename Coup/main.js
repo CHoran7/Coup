@@ -20,7 +20,17 @@ class Deck {
             }
         }
     }
-shuffleDeck() {
+    shuffleDeck() {
         
+    }
+
+    
+}
+
+class Player {
+    constructor(name) {
+        this.playerName = name;
+        this.playerCards = [];
+        this.playerChips = playerChips;
     }
 }
