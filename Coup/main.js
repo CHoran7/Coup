@@ -20,7 +20,15 @@ class Deck {
             }
         }
     }
-shuffleDeck() {
-        
+    
+	shuffleDeck() {
+		for (let i = 0; i > this.cards.length(); i++){
+
+			let rand = Math.floor(Math.random()*this.cards.length();
+			let temp = this.cards[i];
+			this.cards[i] = this.cards[rand];
+			this.cards[rand] = temp;
+		}
+
     }
 }
